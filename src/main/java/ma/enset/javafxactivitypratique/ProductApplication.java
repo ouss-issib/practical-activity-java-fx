@@ -13,7 +13,7 @@ public class ProductApplication extends Application {
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root,450,500);
         scene.getStylesheets().add(getClass().getResource("main.css").toExternalForm());
-        stage.setTitle("Product Management Application");
+        stage.setTitle("Product Management Application ");
         stage.setScene(scene);
         stage.show();
     }
