@@ -10,7 +10,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ListView?>
 <BorderPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="ma.enset.javafxactivitypratique.HelloController"
+            fx:controller="ma.enset.javafxactivitypratique.ProductController"
             prefHeight="430.0" prefWidth="600.0"
                 >
     <padding>
@@ -25,9 +25,9 @@
               <VBox>
                   <children>
                       <Label text="Name :"/>
-                      <TextField fx:id="productName"/>
+                      <TextField fx:id="textFieldName" />
                        <Label text="Price :"/>
-                       <TextField fx:id="productPrice"/>
+                       <TextField fx:id="textFieldPrice" />
                    </children>
                </VBox>
                 <VBox>
