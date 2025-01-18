@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ma.enset.javafxactivitypratique.HelloController"
+            prefHeight="430.0" prefWidth="600.0"
+                >
+    <padding>
+        <Insets topRightBottomLeft="10"/>
+    </padding>
+    <top>
+        <HBox >
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </padding>
+            <children>
+              <VBox>
+                  <children>
+                      <Label text="Name :"/>
+                      <TextField fx:id="productName"/>
+                       <Label text="Price :"/>
+                       <TextField fx:id="productPrice"/>
+                   </children>
+               </VBox>
+                <VBox>
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+                    </padding>
+                </VBox>
+               <VBox spacing="10">
+                   <padding>
+                       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+                   </padding>
+                   <children>
+                       <Button text="Search" onAction="#onSearchProduct"/>
+                       <Button text="Add" onAction="#onAddProduct"/>
+                   </children>
+               </VBox>
+               <VBox spacing="10">
+                   <padding>
+                       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+                   </padding>
+                   <children>
+                       <Button text="Update" onAction="#onUpdateProduct"/>
+                       <Button text="Delete" onAction="#onDeleteProduct"/>
+                   </children>
+               </VBox>
+           </children>
+        </HBox>
+    </top>
+    <center>
+        <ListView fx:id="listView"/>
+    </center>
+</BorderPane>
