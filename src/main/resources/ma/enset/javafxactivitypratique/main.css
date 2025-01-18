@@ -1,0 +1,52 @@
+.root{
+    -fx-background-color:#5E686D ;
+}
+.label{
+    -fx-text-fill: white;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-padding: 4px 10px;
+    -fx-border-radius: 8px;
+    -fx-min-width: 70px;
+    -fx-font-weight: bold;
+}
+.text-field{
+    -fx-min-width: 120px;
+    -fx-background-color: #FAFFC5;
+    -fx-border-radius: 8px;
+
+}
+.text-field:focused{
+    -fx-min-width: 120px;
+    -fx-background-color: #efdcdc;
+    -fx-text-fill: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+.btn-add{
+    -fx-background-color: #4CAF50;
+}
+.btn-update{
+    -fx-background-color: #ea8e46;
+}
+.btn-delete{
+    -fx-background-color: #8E1616;
+}
+.btn-search{
+    -fx-background-color: #0d5867;
+}
+
+
+.list-cell:selected{
+    -fx-text-fill: #A9BFA8;
+    -fx-background-color: white;
+}
+
+
+.list-cell:hover{
+    -fx-text-fill: #788078;
+    -fx-font-weight: bold;
+    -fx-background-color: #efdcdc;
+}

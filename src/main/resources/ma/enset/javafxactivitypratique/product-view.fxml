@@ -14,7 +14,7 @@
             prefHeight="430.0" prefWidth="600.0"
                 >
     <padding>
-        <Insets topRightBottomLeft="10"/>
+        <Insets top="20" left="20" bottom="40" right="20"/>
     </padding>
     <top>
         <HBox >
@@ -30,18 +30,14 @@
                        <TextField fx:id="textFieldPrice" />
                    </children>
                </VBox>
-                <VBox>
-                    <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-                    </padding>
-                </VBox>
+
                <VBox spacing="10">
                    <padding>
                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
                    </padding>
                    <children>
-                       <Button text="Search" onAction="#onSearchProduct"/>
-                       <Button text="Add" onAction="#onAddProduct"/>
+                       <Button text="Search" onAction="#onSearchProduct" styleClass="btn-search"/>
+                       <Button text="Add" onAction="#onAddProduct" styleClass="btn-add"/>
                    </children>
                </VBox>
                <VBox spacing="10">
@@ -49,8 +45,8 @@
                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
                    </padding>
                    <children>
-                       <Button text="Update" onAction="#onUpdateProduct"/>
-                       <Button text="Delete" onAction="#onDeleteProduct"/>
+                       <Button text="Update" onAction="#onUpdateProduct" styleClass="btn-update"/>
+                       <Button text="Delete" onAction="#onDeleteProduct" styleClass="btn-delete"/>
                    </children>
                </VBox>
            </children>
