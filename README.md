@@ -31,8 +31,7 @@ Ce dépôt contient la solution de l'activité pratique axée sur une applicatio
 | ![Suppression - 1](./captures/crud-delete-1.png) | ![Suppression - 2](./captures/crud-delete-2.png) | ![Interface stylisée](./captures/app-ui-styled.png) |
 
  <hr>
- <br>
-<br>
+ 
 
    
 ## Comment Exécuter
