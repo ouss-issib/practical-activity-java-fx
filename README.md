@@ -5,7 +5,7 @@ Ce dépôt contient la solution de l'activité pratique axée sur une applicatio
 
 ## Aperçu d'application
 
-### Exercice 1 : Multi-Threading avec `Runnable`
+### Application `JavaFX`
 
 - **Objectif** : Créer une application JavaFX qui permet de gérer les produits. 
 - **L'application se compose des éléments suivants :** :
